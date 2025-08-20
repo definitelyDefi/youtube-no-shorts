@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube No Shorts",
+  "version": "1.0",
+  "description": "Completely removes YouTube Shorts from feed, search, sidebar, and video page.",
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+  "permissions": ["tabs", "webNavigation"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["content-script.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
