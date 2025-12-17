@@ -12,7 +12,7 @@ A Firefox extension that removes YouTube Shorts and redirects Shorts links to no
 
 1. Clone or download the repo:
    ```bash
-   git clone https://github.com/yourusername/youtube-no-shorts.git
+   git clone https://github.com/definitelyDefi/youtube-no-shorts.git
    ```
 2. Open Firefox: `about:debugging#/runtime/this-firefox`
 3. Click **Load Temporary Add-on** and select `manifest.json`
