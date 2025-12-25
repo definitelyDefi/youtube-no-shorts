@@ -18,6 +18,11 @@ A Firefox extension that removes YouTube Shorts and redirects Shorts links to no
 3. Click **Load Temporary Add-on** and select `manifest.json`
 4. Enjoy a Shorts-free YouTube
 
+
+Or: 
+
+1. Install from Firefox Extension Shop. https://addons.mozilla.org/en-US/firefox/addon/youtube-without-shorts/
+   
 ## License
 
 MIT License
